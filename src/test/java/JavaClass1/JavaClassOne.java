@@ -5,6 +5,7 @@ public class JavaClassOne {
 
         /**
          * Java DataTypes:
+         * Primitive:
          *
          *
          *
@@ -12,6 +13,14 @@ public class JavaClassOne {
          *
          *
          *
+         *
+         *
+         *
+         * Non-primitive:
+         *
+         *
+         *
+         * 
          *
          **/
 
