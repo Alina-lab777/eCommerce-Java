@@ -33,7 +33,7 @@ public class JavaClassWork {
     * 6374614782
     *4th commit
     *
-    * 
+    *
     * committing through GitBash
     *
     *

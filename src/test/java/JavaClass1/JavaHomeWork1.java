@@ -31,6 +31,19 @@ public class JavaHomeWork1 {
      *
      * */
 
+    /***
+     * Process with e-Commerce Project:
+     *
+     * 1. As per 1 Java Class ---> only 1 Remote Branch should be created and named as Ex:"JavaHomeWork1"
+     * 2. All changes need to be pushed only to created 1 Remote Branch as per Class.
+     * 3. Remote Branches need to be Camel Case.
+     *
+     *
+     *
+     *
+     *
+     *
+     */
 
 
 
