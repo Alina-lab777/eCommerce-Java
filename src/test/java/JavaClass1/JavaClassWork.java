@@ -28,7 +28,7 @@ public class JavaClassWork {
     * git add -A      - committing new changes
     * git commit -m "committing message"   - new committing with "message"
     * git push origin SamBranch:JavaHomeWork1:
-    * Trying to create new Remote Branch
+    * New submition 7653
     *
     *
     * */
