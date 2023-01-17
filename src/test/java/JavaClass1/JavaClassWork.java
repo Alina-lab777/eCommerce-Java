@@ -29,6 +29,7 @@ public class JavaClassWork {
     * git commit -m "committing message"   - new committing with "message"
     * git push <remote> <local branch-name>:<remote new Branch name> - We are pushing the changes
     *
+    * Committing to remote origin/JavaHomeWork1 branch 
     *
     *
     * */
