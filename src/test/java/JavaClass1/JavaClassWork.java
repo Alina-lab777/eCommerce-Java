@@ -29,7 +29,7 @@ public class JavaClassWork {
     * git commit -m "committing message"   - new committing with "message"
     * git push origin SamBranch:JavaHomeWork1:
     * New submition 7653
-    *
+    * New commit for JavaHomeWork1
     *
     * */
 
