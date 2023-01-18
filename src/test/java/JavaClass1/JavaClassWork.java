@@ -20,16 +20,6 @@ public class JavaClassWork {
     * 1456.90l
     * false
     * a
-    *New home work 1
-    * Redoing my home work 1
-    * Commands I have learned:
-    * git pull        - updating changes from master branch into local
-    * git status      - updating changes on local branch
-    * git add -A      - committing new changes
-    * git commit -m "committing message"   - new committing with "message"
-    * git push origin SamBranch:JavaHomeWork1:
-    * New submition 7653
-    * New commit for JavaHomeWork1
     *
     * */
 
