@@ -1,19 +1,6 @@
 package JavaClass1;
 
 public class JavaHomeWork1 {
-    /**
-     * Practice declaring and assigning Java variables:
-     *
-     *
-     *To find out difference between primitive and non- primitive
-     *
-     *
-     *Declare and assign covered Data types
-     *
-     *
-     */
-
-
 
     /**
      * GIT-GITHub Homework
@@ -39,13 +26,38 @@ public class JavaHomeWork1 {
      * 3. Remote Branches need to be Camel Case.
      *
      *
-     *
-     *
-     *
-     *
      */
 
-
+    /**
+     * HOME WORK --- from 1st Java Lesson (Jan 18th/2023)
+     *
+     * Call main method!
+     * Practice declaring and assigning Declare and assign covered Data types:
+     *     * byte
+     *     * short
+     *     * int
+     *     * long
+     *     * float
+     *     * double
+     *     * boolean
+     *     * char
+     *     * String
+     *
+     *  Practice/declare/assign arrays[] for all  data types and print them by their Index#
+     *          * byte
+     *          * short
+     *          * int
+     *          * long
+     *          * float
+     *          * double
+     *          * boolean
+     *          * char
+     *          * String
+     *
+     *
+     * Print Everything and Run your first program!
+     *
+     */
 
 
 }
