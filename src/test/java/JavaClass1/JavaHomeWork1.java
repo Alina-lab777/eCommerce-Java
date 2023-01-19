@@ -38,7 +38,7 @@ public class JavaHomeWork1 {
      * 2. All changes need to be pushed only to created 1 Remote Branch as per Class.
      * 3. Remote Branches need to be Camel Case.
      *
-     *Ashqathama
+     *
      *
      *
      *
