@@ -148,8 +148,8 @@ public class JavaHomeWork1 {
      *      * * short
      *      * * int
      *      * * long
-     *      * * float
-     *      * * double
+     *      * * float 7.00000000 ---> 7.00
+     *      * * double 15.00000000000000000 ---> 15.00
      *      * * boolean
      *      * * char
      *      * * String

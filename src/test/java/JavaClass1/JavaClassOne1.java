@@ -68,12 +68,22 @@ public class JavaClassOne1 {
 
 
 
+        byte b = 5; // can hold only 1 values, which is 5;
+        byte c = 2;
+        byte d = 3;
+        byte e = 4;
 
 
-        byte[] someArrayByte = {2,3,4,5};
 
 
-        int [] someArrayInt = {150, 160, 170};
+
+        byte[] iCanWriteAnythingIwant = {2,3,4,5}; // array type of a byte, and it hold hold multiple values of the same
+        //Data type.
+        System.out.println("I'm printing Values of 4 : " + iCanWriteAnythingIwant[2]);
+        System.out.println("I'm printing Values of 2 : " + iCanWriteAnythingIwant[0]);
+
+
+        int [] someArrayInt = {150, 160, 170};// array types of a int
 
 
 
@@ -117,7 +127,7 @@ public class JavaClassOne1 {
          **/
 
 
-        List l = new ArrayList<>();
+        List l = new ArrayList();
 
 
 
