@@ -1,12 +1,10 @@
 package JavaClass1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 
 public class JavaHomeWork1 {
     public static void main(String[] args) {
-        System.out.println(5);
+        System.out.println();
+         System.out.println(5);
 
         System.out.println(1000000);
 
@@ -32,6 +30,19 @@ public class JavaHomeWork1 {
         String someString = "Just creating some String data type";
         System.out.println(someString);
         String[]someStrings = {"String1","String2","String3", "String4", "String5",};
+String string1 = "Strings 1";
+String string2 = "String 2";
+String string3 = "String 3";
+String string4 = "String 4";
+String string5 = "String 5";
+        System.out.println(someStrings[0]);
+        System.out.println(someStrings[1]);
+        System.out.println(someStrings[2]);
+        System.out.println(someStrings[3]);
+        System.out.println(someStrings[4]);
+
+
+
         /**
          * String1 -- internally assigned to the Index 0
          * String2 -- internally assigned to the Index 1
@@ -47,7 +58,7 @@ public class JavaHomeWork1 {
 
         System.out.println("***********************");
 
-        System.out.println(someStrings);
+        System.out.println(someStrings[4]);
 
 
        byte[]someArrayByte = {2,3,4,5};
@@ -167,18 +178,7 @@ public class JavaHomeWork1 {
      *      *
      *      *
      *      * Print Everything and Run your first program!
-     *      *
-     *      *
-     */
-
-    byte somebyte = 10;
-    short someshort = 20;
-    int someint = 30;
-    long someLong = 40L;
-    float somelong = 50F;
-    double somedouble = 60.00;
-    boolean someBoolean = true;
-    char someChar = 'b';
+    */
 
 }
 
