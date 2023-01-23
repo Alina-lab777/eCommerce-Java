@@ -90,11 +90,11 @@ public class JavaClassOne1 {
 
 
 
-     /*   System.out.println(5);
+        System.out.println(5);
         System.out.println(1000000);
 
         System.out.println("Anything I want");
-        System.out.println("With quotation marks");*/
+        System.out.println("With quotation marks");
 
     }
 
