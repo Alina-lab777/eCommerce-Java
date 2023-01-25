@@ -217,7 +217,7 @@ y*=5; //y = 10 * 5;
         System.out.println("Multiplication of Value g=100, g *=100; " +g);
 
 
-        
+
         System.out.println( "***************Finish***********");
 
 
@@ -266,11 +266,6 @@ y*=5; //y = 10 * 5;
          * int aa = 10;
          * int bb = (aa–) + 100;
          * System.out.println(bb);
-         *
-         *
-         *
-         *
-         *
          *
          * */
 
