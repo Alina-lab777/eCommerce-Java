@@ -147,6 +147,7 @@ public class HomeWork3 {
         System.out.println(result3);
 
 
+
          int maxNumber = number_1>number_2 ? number_1 : number_2;
          System.out.println("The max number is : " +  maxNumber );
 
@@ -158,6 +159,7 @@ public class HomeWork3 {
 
         double doubleResult2 = number_1 > number_4 ? number_1 : number_4;
         System.out.println("The max result of 2 negative Double values : " + doubleResult2 );
+
 
 
     }}
