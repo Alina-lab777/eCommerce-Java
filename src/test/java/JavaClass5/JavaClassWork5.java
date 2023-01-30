@@ -3,6 +3,16 @@ package JavaClass5;
 public class JavaClassWork5 {
     public static void main(String[] args) {
 
+
+
+
+
+
+
+
+
+
+
       /**
        * startsWith() ---> checks if string starts with given prefix or combination of characters;
        *                 ---> case sensitive;
