@@ -52,7 +52,7 @@ public class JavaClassWork4 {
          * */
 
 
-        boolean resultOfContains = someString.contains("ld");
+        Boolean resultOfContains = someString.contains("ld");
         System.out.println("If String contains Hello : " + resultOfContains);
 
 
@@ -92,7 +92,7 @@ public class JavaClassWork4 {
          * */
 
 
-        boolean resultOfEquals = someString.equals("Hello World");
+        Boolean resultOfEquals = someString.equals("Hello World");
         System.out.println("The result of equals method : " + resultOfEquals);
 
 
@@ -102,9 +102,11 @@ public class JavaClassWork4 {
 
         // In If-else condition;
 
-        if (someString.equals("Hello World")) { System.out.println("Two Strings are the Same !");
+        if (someString.equals("Hello World")) {
+            System.out.println("Two Strings are the Same !");
+        } else {
+            System.out.println("Two Strings aren't the Same !");
         }
-        else {System.out.println("Two Strings aren't the Same !");}
 
 
 
@@ -112,14 +114,14 @@ public class JavaClassWork4 {
 
         /**
          * equalsIgnoreCase() ---> will check/compare if two Strings are the same irrespective of a case;
-         *     return type is boolean;
+         *     return type is Boolean;
          * */
 
         String s1 = "Learn to code now";
         String s2 = "LEARN TO COD NOW";
 
 
-        boolean resultOfEqualsIgnoreCase = s1.equalsIgnoreCase(s2);
+        Boolean resultOfEqualsIgnoreCase = s1.equalsIgnoreCase(s2);
         System.out.println("The result of EqualsIgnoreCase method : " + resultOfEqualsIgnoreCase);
 
 
@@ -128,9 +130,11 @@ public class JavaClassWork4 {
 
 
 
-        if (s1.equalsIgnoreCase(s2)) { System.out.println("Yes, they are the same, checked within If statement, and it is true");
+        if (s1.equalsIgnoreCase(s2)) {
+            System.out.println("Yes, they are the same, checked within If statement, and it is true");
+        } else {
+            System.out.println("No, they aren't, else block got executed ");
         }
-        else {System.out.println("No, they aren't, else block got executed ");}
 
 
         /** Ternary Operator:
@@ -141,7 +145,7 @@ public class JavaClassWork4 {
          *
          *  If-else Condition:
          *    if (Statement) {
-         *     true result will get executed in this block of Code ;
+         *        true result will get executed in this block of Code ;
          *    } else {
          *        false result will get executed in else block of Code;
          *    }
