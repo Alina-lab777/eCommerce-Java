@@ -20,6 +20,7 @@ public class JavaHomeWork8 {
      *      180 x 703 = 126,540.
      *      126,540 / 65 = 1,946.769.
      *      1,946.769 / 65 = 29.95.
+     *
      *      Their BMI would be 29.9.
      *
      *      double feetToInches = heightInFeet * 12 + heightInInches;
