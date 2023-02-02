@@ -97,25 +97,23 @@ public class JavaHomeWork7 {
             System.out.println("Unknown Vehicle type ");
         }
 
-        int GradeA =100;
-        int GradeB = 89;
-        int GradeC = 79;
-        int GradeD = 70;
+        int Grade = 61;
 
 
-        if (GradeA <= 100 ) {
+
+        if (Grade >= 90 && Grade <= 100)  {
             System.out.println("Grade A");
-        } else if (GradeA <= 90) {
+        } else if (Grade >= 80 && Grade <= 89) {
             System.out.println("Grade B");
-        } else if (GradeA <= 80) {
+        } else if (Grade >= 70 && Grade <= 79) {
             System.out.println("Grade C");
-        } else if (GradeA <= 70) {
+        } else if (Grade <= 70) {
             System.out.println("gradeD");
         } else {
             System.out.println("non above");
         }
 
-     
+
 
 
 
