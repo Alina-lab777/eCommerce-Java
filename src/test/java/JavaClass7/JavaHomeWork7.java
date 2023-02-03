@@ -4,7 +4,7 @@ public class JavaHomeWork7 {
 
     public static void main(String[] args) {
 
-        String CarModel = "Honda";
+        String CarModel = "Honda"; // we are getting from user, what don't know what he is going to provide;
         String CarModel2 = "Toyota";
         String CarModel3 = "Tesla";
         String CarModel4 = "Lexus RX350";
@@ -97,7 +97,7 @@ public class JavaHomeWork7 {
             System.out.println("Unknown Vehicle type ");
         }
 
-        int Grade = 61;
+        int Grade = 60;
 
 
 
