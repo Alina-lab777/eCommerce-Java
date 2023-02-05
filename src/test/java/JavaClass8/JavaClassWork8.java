@@ -46,17 +46,14 @@ public class JavaClassWork8 {
         }
 
 
-
-
-
         int heightInCm = 280;
         int weightInKg = 160;
         int age = 35;
 
 
-        if (heightInCm >= 180 && heightInCm <=200) {
-            if (weightInKg>= 60 && weightInKg <=100) {
-                if (age >=16 && age<=30) {
+        if (heightInCm >= 180 && heightInCm <= 200) {
+            if (weightInKg >= 60 && weightInKg <= 100) {
+                if (age >= 16 && age <= 30) {
                     System.out.println("You are eligible to join Basketball Team!");
                 } else {
                     System.out.println("Unfortunately you aren't eligible due to your age");
@@ -67,8 +64,6 @@ public class JavaClassWork8 {
         } else {
             System.out.println("Unfortunately you aren't eligible due to the height category");
         }
-
-
 
 
         boolean hasApplesOnTheTree = true;
@@ -91,18 +86,27 @@ public class JavaClassWork8 {
         }
 
 
+        boolean carJeepRedColor = true;
+        int jeepQuantity = 25;
+        boolean jeepAvailable = false;
+
+        if (carJeepRedColor) {
+            if (jeepQuantity >= 30) {
+                if (jeepAvailable) {
+                    System.out.println("Red color Jeep is available for purchase");
+
+                } else {
+                    System.out.println("Vehicle is not available at the moment");
+                }
+            } else {
+                System.out.println("Requested number of vehicles are not available");
+            }
+        } else {
+                System.out.println("The red color is not available");
+            }
 
 
-
-
-
-
-
-
-
+        }
 
 
     }
-
-
-}
