@@ -28,13 +28,83 @@ public class JavaHomeWork8 {
 
     public static void main(String[] args) {
 
+      int x = 3;
+
+
+        if (x >= 0 && x % 2 ==0 ) {
+            System.out.println("This number is even and more than zero");
+        } else {
+            System.out.println("The number is odd or negative");
+        }
+
+
+
+
+
+
+
+
+
+        int y = -1;
+
+        boolean even = (y & 1) == 0;
+        boolean odd = (y & 1) !=0;
+
+
+        if (even){
+            System.out.println("This number is even and more than Zero");
+        } else {
+            System.out.println("This number odd or negative");
+        }
+
+
+        int z =-134;
+
+        if (z > 0 && z % 2 == 0) {
+            System.out.println("This number is even and more than zero");
+        } else {
+            System.out.println("The number is odd or negative");
+        }
+
+
+
+
+
+
+
+
+
+        int Grade = 88;
+
+
+
+        if (Grade >= 90 && Grade <= 100)  {
+            System.out.println("Grade A");
+        } else if (Grade >= 80  && Grade <= 89 ) {
+            Grade= Grade + 5;
+            System.out.println("Grade B");
+        } else if (Grade >= 70 && Grade <= 79) {
+            System.out.println("Grade C");
+        } else if (Grade >= 60 && Grade <= 69) {
+            Grade = Grade +7;
+            System.out.println("Grade D");
+        } else {
+            Grade = 0;
+            System.out.println("FAILED");
+        }
+
+
+
+
+
+
 
         double bodyHeightInFeet = 5.0;
         double bodyHeightInInches = 9.0;
-        double bodyWeightInPounds = 160.5;
+        double bodyWeightInPounds = 170.5;
 
 
-        double bodyHeightTotal = bodyHeightInFeet * 12 + bodyHeightInInches ;
+        double bodyHeightTotal = bodyHeightInFeet * 12 + bodyHeightInInches;
         System.out.println(bodyHeightTotal);
         double bodyWeightTotal = bodyWeightInPounds * 703;
         System.out.println(bodyWeightTotal);
@@ -44,7 +114,7 @@ public class JavaHomeWork8 {
         System.out.println(bmiResult);
 
 
-        if (bmiResult <= 18.5)  {
+        if (bmiResult <= 18.5) {
             System.out.println("It falls within the underweight range.nYou need to gain some weight");
         } else if (bmiResult >= 18.5 && bmiResult <= 24.9) {
             System.out.println("It falls within the Healthy Weight range.nKeep on eating healthy");
@@ -55,6 +125,11 @@ public class JavaHomeWork8 {
         } else {
             System.out.println("non above");
         }
+
+
+
+
+
 
 
 
