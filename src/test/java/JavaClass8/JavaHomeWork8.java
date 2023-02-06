@@ -74,19 +74,28 @@ public class JavaHomeWork8 {
 
 
 
-        int Grade = 88;
+        int Grade = 82;
 
+        int dd = 5;
+        dd = dd + 10; // dd = 15;
+        System.out.println(dd);// dd = 15;
 
 
         if (Grade >= 90 && Grade <= 100)  {
             System.out.println("Grade A");
         } else if (Grade >= 80  && Grade <= 89 ) {
-            Grade= Grade + 5;
-            System.out.println("Grade B");
+            Grade += 5;
+
+            if (Grade >= 90 && Grade<=100){
+                System.out.println("The Grade has been promoted from B to A");
+            } else {
+                System.out.println("Grade B");
+            }
+
         } else if (Grade >= 70 && Grade <= 79) {
             System.out.println("Grade C");
         } else if (Grade >= 60 && Grade <= 69) {
-            Grade = Grade +7;
+            Grade = Grade + 7; // HomeWork ;
             System.out.println("Grade D");
         } else {
             Grade = 0;
@@ -99,9 +108,9 @@ public class JavaHomeWork8 {
 
 
 
-        double bodyHeightInFeet = 5.0;
-        double bodyHeightInInches = 9.0;
-        double bodyWeightInPounds = 170.5;
+        double bodyHeightInFeet = 5;
+        double bodyHeightInInches = 10;
+        double bodyWeightInPounds = 125;
 
 
         double bodyHeightTotal = bodyHeightInFeet * 12 + bodyHeightInInches;
