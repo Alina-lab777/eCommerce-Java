@@ -245,7 +245,7 @@ public class JavaHomeWork9 {
             case "October":
                 System.out.println("The month  of October is in Fall");
                 break;
-            case "Desember" :
+            case "December" :
                 System.out.println("The month of December is in Winter");
                 break;
             case "March":
