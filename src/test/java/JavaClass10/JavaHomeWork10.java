@@ -3,7 +3,15 @@ package JavaClass10;
 public class JavaHomeWork10 {
     public static void main(String[] args) {
 
-        /**
+        /** 1st Task;
+         * Create and any String[] (put any value); and int[] (put any value)
+         * Then with the help of method "length" sout it in "For Loop"
+         * Compare as "<" and "<=" to the Length of created String[] and int[];
+         * place "length-1", accordingly;
+         * */
+
+
+        /** 2nd Task:
          * Create array of int with these values : {2,5,7,8,20,25,33,46,50,58,66,78,84,90};
          * With the help of For Loop please sort them out by even or odd numbers
          * Print the sorted result, should look like this:
@@ -22,7 +30,6 @@ public class JavaHomeWork10 {
          * This number is even : 78
          * This number is even : 84
          * This number is even : 90
-         *
          *
          **/
 

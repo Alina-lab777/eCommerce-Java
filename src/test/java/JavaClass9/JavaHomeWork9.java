@@ -218,7 +218,7 @@ public class JavaHomeWork9 {
  *                 String[] and pass values as : "December","March", "July", "September";
  *
  * With the help of enhanced (for each loop) your program  should sout it 'switch case'
- * statement for related season; (In switch Case Statement, group them according to the seasons)
+ * statement for related season; (In switch Case Statement, group them according to the 4 seasons)
  *
  * Ex for sout: The month of January is in Winter;
  *              The month of April is in Spring;
@@ -228,46 +228,30 @@ public class JavaHomeWork9 {
  * */
 
 
-        String[] seasons = {"April", "May"};
+        String[] seasons = {"January", "May", "June"};//not about this one
 
 
-        for (String s : seasons)
+        for (String s : seasons) //s taking the value of seasons one by one and passing to switch case statement;
         switch (s) {
+            case "December":
             case "January" :
-                System.out.println("The month of January is in Winter");
-                break;
-            case "April":
-                System.out.println("The month of April is in Spring");
-                break;
-            case "June":
-                System.out.println(" The month  of June is in Summer");
-                break;
-            case "October":
-                System.out.println("The month  of October is in Fall");
-                break;
-            case "December" :
-                System.out.println("The month of December is in Winter");
+            case "February":
+                System.out.println("The month of " + s +  " is in Winter");
                 break;
             case "March":
-                System.out.println("The month of March is in Spring");
+            case "April":
+            case "May" :
+                System.out.println("The month of " + s +  " is in Spring");
                 break;
+            case "June":
             case "July":
-                System.out.println(" The month  of July is in Summer");
-                break;
-            case "September":
-                System.out.println("The month  of September is in Fall");
-                break;
-            case "February" :
-                System.out.println("The month of February is in Winter");
-                break;
-            case "May":
-                System.out.println("The month of May is in Spring");
-                break;
             case "August":
-                System.out.println(" The month  of August is in Summer");
+                System.out.println("The month of " + s +  " is in Summer");
                 break;
+            case "September" :
+            case "October":
             case "November":
-                System.out.println("The month  of November is in Fall");
+                System.out.println("The month of " + s +  " is in Fall");
                 break;
 
         }
