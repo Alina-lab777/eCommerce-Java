@@ -1,5 +1,7 @@
 package JavaClass11;
 
+import java.nio.charset.StandardCharsets;
+
 public class Mid_Term_Coding_Challenge {
     public static void main(String[] args) {
 
@@ -112,6 +114,13 @@ public class Mid_Term_Coding_Challenge {
          **/
 
 
+        String[] cars = {"Volvo", "BMW", "Ford", "Mercedes", "Volkswagen", "Chevrolet"};
+        for (int i = 0; i<cars.length; i++){
+            if (cars[i].charAt(i) > 6 ){
+                //System.out.println("lllll");
+            }
+        }
+
 
 
 
@@ -131,6 +140,27 @@ public class Mid_Term_Coding_Challenge {
          *     5. Convert it toUppercase();
          *
          **/
+
+
+
+
+        String str = "Don't expect the results without the hard work any number of letter letter letter any words ";
+
+        // In order to get 1st Letter, we have to split it using split method, return String[], store it;
+        String[] afterSplit = str.split(" ");
+
+        // In order to get the Items one by one we are Looping through, using the length,
+        // so our code can handle dynamically;
+
+        for (int i =0; i<afterSplit.length; i++) {
+
+            //I'm instructing to 'i' to get me the Items beginning letter by using substring (0,1)
+
+            String temp = afterSplit[i].substring(0,1).toLowerCase();
+
+            System.out.print(temp);
+
+        }
 
 
 

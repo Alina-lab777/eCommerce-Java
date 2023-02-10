@@ -66,7 +66,7 @@ public class JavaClassWork6 {
          *    return type ---> string;
          * */
 
-       String exampleForSubString = "JavaProgress";
+       String exampleForSubString = "JavaProgress";// P at 4th Index,
        String theProgressWord=exampleForSubString.substring(4); //Will return "Progress" as whole word;
         System.out.println(theProgressWord);
 
