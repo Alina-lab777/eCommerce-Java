@@ -12,15 +12,27 @@ public class JavaHomeWork10 {
          * */
 
         String[] fruits = {"apples", "grapes", "bananas"};
+        int lengthOfFruites = fruits.length;
+
+        for (int i = 0; i < lengthOfFruites; i++) { // i<= fruits.length-1;
+            System.out.println("Fruits are : " + fruits[i]);
+        }
+
+
+        /**
+         * 1. Length ---> method is used with arrays, Primitive Data types (no brackets);
+         * 2. Length() ----> method is used with String, Collection;
+         *
+         **/
+
+
+
         int[] numbers1 = {1, 2, 3};
 
-        for (int i = 0; i <= fruits.length - 1; i++) {
-            System.out.print("Fruits are " + fruits[i]);
-
-            for (int s = 0; s <= numbers1.length - 1; s++) {
-                System.out.print("Numbers : " + numbers1[s]);
+        for (int s = 0; s <= numbers1.length - 1; s++) {
+                System.out.println("Numbers : " + numbers1[s]);
             }
-        }
+
 
 
         /** 2nd Task:
@@ -43,16 +55,29 @@ public class JavaHomeWork10 {
          * This number is even : 84
          * This number is even : 90
          *
+         *
+         * If you don't how to solve the problem:
+         *   1. Think about on how would you do without coding, (if I will do this, I get what I want);
+         *   2. Go through the previous classes and think about possible solution;
+         *   3. If can't solve the coding task, please provide me "pseudo" code!
+         *
+         *      Pseudo code ---> is more or less close solution that can be potentially solve the problem;
+         *
+         *      1  Step ---> I would use For Loop or Enhanced Loop;
+         *      2. Step I would check the numbers if they are even or odd;
+         *      3. Step Based on my check I would sout;
+         *
+         *
          **/
 
         int[] num = {2, 5, 7, 8, 20, 25, 33, 46, 50, 58, 66, 78, 84, 90};
         for (int n = 0; n <= num.length - 1; n++) {
             if (num[n] % 2 == 0) {
-                System.out.print("This number is even " + num[n]);
+                System.out.println("This number is even " + num[n]);
             } else {
-                System.out.print("This number is odd " + num[n]);
+                System.out.println("This number is odd " + num[n]);
             }
-
+        }
 
             // 1. if else condition;
             int a = 12;
@@ -140,7 +165,5 @@ public class JavaHomeWork10 {
                 System.out.print(str.charAt(k));
             }
 
-
-        }
     }
 }
