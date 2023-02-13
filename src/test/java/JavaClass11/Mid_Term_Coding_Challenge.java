@@ -11,7 +11,13 @@ public class Mid_Term_Coding_Challenge {
          *Print "Hello World" if x is greater than y.
          *
          **/
-
+        int x = 50;
+        int y = 10;
+        if (x>y) {
+            System.out.println("Hello World");
+        } else {
+            System.out.println("");
+        }
 
 
 
@@ -19,8 +25,15 @@ public class Mid_Term_Coding_Challenge {
          *int x = 50;
          *int y = 50;
          *Print "Yes" if x is equal to y, otherwise print "No"
+         *    int x = 50;
+         *    int y = 50;
+         *    if (x==y) {
+         *        sout ("Yes") ;
          *
+         *       } else {sout ("No")};
+         *    }
          **/
+
 
 
 
@@ -31,6 +44,21 @@ public class Mid_Term_Coding_Challenge {
          * int y = 80;
          * Print "1" if x is equal to y, print "2" if x is greater than y, otherwise print "3".
          *
+         *  int x = 100;
+         *  int y = 80;
+         *  if (x == y) {
+         *      sout "x is equal to y"; {
+         *
+         *      } else if (x>y) {
+         *          sout "x is greater than y"; {
+         *
+         *          }else (x<y) {
+         *              sout "y is greater than x" ;
+         *          }
+         *      }
+         *
+         *      }
+         *  }
          **/
 
 
@@ -42,12 +70,10 @@ public class Mid_Term_Coding_Challenge {
          * (ternary operator):
          *
          * int time = 20;
-         * String result = time < 18  "Good day." "Good evening.";
-         * System.out.println(result);
+         * String result = time < 18 ? "Good day": "Good evening"; {
+         * System.out.println(result);}
          *
          **/
-
-
 
 
 
@@ -55,16 +81,16 @@ public class Mid_Term_Coding_Challenge {
         /**
          *Insert the missing parts to complete the following switch statement:
          * int day = 6;
-         * switch () {
-         *     6:
+         * switch (day) {
+         *  case 6:
          *     System.out.println("Saturday");
-         *
-         *     7:
+         *    break;
+         *    case 7:
          *     System.out.println("Sunday");
-         *
-         *
+         *     break;
+         *   default:
          *     System.out.println("Unknown Day");
-         *
+         *     break;
          * }
          *
          **/
@@ -85,9 +111,13 @@ public class Mid_Term_Coding_Challenge {
          *
          **/
 
-
-
-
+        String[] cars = {"Volvo", "BMW", "Ford"};
+        for (int m=0; m<cars.length; m++) {
+           // System.out.println(cars[m]);
+            if (cars[m].equals("BMW")) {
+                System.out.println(cars[m]);
+            }
+        }
 
 
 
@@ -114,18 +144,15 @@ public class Mid_Term_Coding_Challenge {
          **/
 
 
-        String[] cars = {"Volvo", "BMW", "Ford", "Mercedes", "Volkswagen", "Chevrolet"};
-        for (int i = 0; i<cars.length; i++){
-            if (cars[i].charAt(i) > 6 ){
+        String[] cars1 = {"Volvo", "BMW", "Ford", "Mercedes", "Volkswagen", "Chevrolet"};
+        for (int i = 0; i<cars1.length; i++){
+            if (cars1[i].charAt(i) > 6 ){
                 //System.out.println("lllll");
             }
         }
 
 
-
-
-
-
+         //c
 
         /**
          * Write the code to return ABBREVIATION for any given String
@@ -141,7 +168,16 @@ public class Mid_Term_Coding_Challenge {
          *
          **/
 
-
+        String[] cars2 = {"Volvo", "BMW", "Ford", "Mercedes", "Volkswagen", "Chevrolet"};
+         for (int i =0; i<cars2.length; i++) {
+             if (cars2[i].length()>6) {
+                 System.out.println("Number of characters more than 6 " + cars2[i] );
+             } else if (cars2[i].length()<4) {
+                 System.out.println("Number of characters less than 4 " + cars2[i]);
+             } else {
+                 System.out.println(cars2[i]);
+             }
+         }
 
 
         String str = "Don't expect the results without the hard work any number of letter letter letter any words ";
@@ -159,14 +195,7 @@ public class Mid_Term_Coding_Challenge {
             String temp = afterSplit[i].substring(0,1).toLowerCase();
 
             System.out.print(temp);
-
         }
-
-
-
-
-
-
 
         /**
          * Write the code to return the Capitalized string
@@ -183,6 +212,18 @@ public class Mid_Term_Coding_Challenge {
          *      5. Concatenate it with the rest of String use Substring() method and pass Starting index, convert it toLowerCase();
          *
          **/
+        System.out.println("");
+
+        String quote = "work hard in silENce. let SUCCESS make the noiSE";
+        String[] afterSplit2 = quote.split(" ") ;
+        for (int i =0; i<afterSplit2.length; i++) {
+            String temp2 = afterSplit2[i].substring(0,1).toUpperCase();
+            String result = temp2.concat(temp2).substring(1,0).toLowerCase();
+            System.out.print(result); // output "whislsmtn"
+
+        }
+
+
 
 
 
