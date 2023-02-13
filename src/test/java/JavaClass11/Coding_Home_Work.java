@@ -1,5 +1,7 @@
 package JavaClass11;
 
+import java.util.Locale;
+
 public class Coding_Home_Work {
     public static void main(String[] args) {
 
@@ -87,16 +89,19 @@ public class Coding_Home_Work {
 
         System.out.println("");
 
-        String quote = "work hard in silENce. let SUCCESS make the noiSE";
+        String quote = "work hard in silENce. let SUCCESS make the noiSE tests";
         String[] splitArr = quote.split(" ");
         for (int i = 0; i < splitArr.length; i++) {
             String low = splitArr[i].substring(0, 1).toUpperCase() + splitArr[i].substring(1).toLowerCase();
             System.out.print(" " + low);
+
+
+
         }
 
         System.out.println("");
 
-        int[] speedingRangeOverTheLimit = {10, 25, 38, 45};
+        int[] speedingRangeOverTheLimit = {10, 25, 38, 45, };
         for (int i = 0; i < speedingRangeOverTheLimit.length; i++) {
 
 
@@ -112,6 +117,24 @@ public class Coding_Home_Work {
                 System.out.println("Your driving license is suspended");
             }
         }
+
+
+
+        String quote2 = "work hard in silENce let SUCCESS make the noiSE tests";
+        String[] splitArr2 = quote2.split(" ");
+        for (int i = 0; i < splitArr2.length; i++) {
+
+            String withConcat = splitArr2[i].substring(0,1).toUpperCase().
+                                concat(splitArr2[i].substring(1, splitArr2[i].length()-1).toLowerCase()).
+                                concat(splitArr2[i].substring(splitArr2[i].length()-1).toUpperCase());
+
+
+            System.out.print(withConcat + " ");
+        }
+
+
+
+
 
     }
 }
