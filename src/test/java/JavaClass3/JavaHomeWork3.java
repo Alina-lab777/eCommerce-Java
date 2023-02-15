@@ -69,7 +69,7 @@ public class JavaHomeWork3 {
 
 
         Boolean resultOfBoolean2 = k != l;
-        System.out.println("The result of == sign :  " + resultOfBoolean1);
+        System.out.println("The result of != sign :  " + resultOfBoolean1);
 
 
         Boolean resultOfBoolean3 = k >= l;

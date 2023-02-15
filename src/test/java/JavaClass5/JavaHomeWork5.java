@@ -49,7 +49,7 @@ public class JavaHomeWork5 {
 
             String trimString = "  I turn coffee into code    ";
             String afterTrimming = trimString.trim();
-            System.out.println(afterTrimming);
+            System.out.println("  I turn coffee into code    " + afterTrimming);
 
 /**
  *   Length() -------> Finds the Length of the String;
