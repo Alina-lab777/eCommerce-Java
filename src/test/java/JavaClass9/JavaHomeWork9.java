@@ -129,7 +129,7 @@ public class JavaHomeWork9 {
          * Usually this Type of Loop is used with []
          arrays to print all values;         * */
 
-        System.out.println("======================================================");
+        System.out.println("=====================C=================================");
 
 
         String[] cars = {"BMW", "AUDI", "TESLA", "LEXUS"};

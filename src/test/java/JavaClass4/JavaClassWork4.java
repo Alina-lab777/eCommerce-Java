@@ -9,7 +9,11 @@ public class JavaClassWork4 {
         char[] arrayOfChar = {'P', 'r', 'o', 'g', 'r', 'a', 'm', ' ', 'w', 'i', 't', 'h', ' ', 'J', 'a', 'v', 'a'};
         String afterConversion = new String(arrayOfChar);// I want my Array of Char to become a String by creating "new" String;
 
-        System.out.println(afterConversion);
+        System.out.println(afterConversion); //Program with Java
+
+        char[] arrayOfChar1 = {'P', 'r', 'o', 'g', 'r', 'a', 'm'};
+        String charit = new String(arrayOfChar1);
+        System.out.println(charit);
 
 
         /**
