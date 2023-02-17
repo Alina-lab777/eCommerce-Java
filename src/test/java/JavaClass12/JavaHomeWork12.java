@@ -53,11 +53,11 @@ public class JavaHomeWork12 {
          *
          String[] flower = {"Rose", "Violet", "Carnation", "Dandelion", "Lotus", "Daisy", "Orchid", "Rose"};
 
-          Everything within 1 Decrement Loop:
+         Everything within 1 Decrement Loop:
 
-          The result of flower, that endsWith("n");
-          The result of flower, the length more than 6;
-          The number of Loop + flower name;
+         The result of flower, that endsWith("n");
+         The result of flower, the length more than 6;
+         The number of Loop + flower name;
 
          Hint for number of rounds:
          Create int var and assign it to Your Loop;
@@ -90,14 +90,26 @@ public class JavaHomeWork12 {
         // for (int f=0; f<flower.length; f++) {
         int var;
         for (var = 0; var < flower.length; var++) {
+
             System.out.println(flower[var] + " found at number of Rounds : " + var);
         }
 
 
         //write New Addition below for HomeWork12:
 
-        
+        System.out.println("==================================================================");
 
+        for (int w = flower.length - 1; w > 0; w--) {
+            int fwer = w;
+
+            if (flower[fwer].endsWith("n")) {
+                System.out.println("The result of flower, that endsWith(n) " + flower[fwer]);
+            } else if (flower[fwer].length() >= 6) {
+                System.out.println("The result of flower, the length more than - 6 " + flower[fwer]);
+            } else {
+                System.out.println(flower[fwer] + "found at number of Rounds : " + w);
+            }
+        }
 
     }
 
