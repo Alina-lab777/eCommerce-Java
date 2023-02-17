@@ -103,7 +103,7 @@ public class JavaHomeWork13 {
         } while (h <= 21);
 
 
-        int dreamSalary = 110;
+        /*int dreamSalary = 110;
         int offeredSalary = 95;
         do {
             System.out.println("Offered Salary : " + offeredSalary);
@@ -114,7 +114,21 @@ public class JavaHomeWork13 {
             }
             offeredSalary++;
 
-        } while (offeredSalary <= dreamSalary);
+        } while (offeredSalary <= dreamSalary);*/
+
+
+        int dreamSalary = 110;
+        for (int offeredSalary = 95; offeredSalary<=dreamSalary; offeredSalary++){
+
+            if (offeredSalary >= dreamSalary) {
+                System.out.println("Accepted, since it is : " + offeredSalary);
+            } else {
+                System.out.println("Not accepted, since it is  at : " + offeredSalary);
+            }
+        }
+
+        // CTLR + SHIFT + / --- Select everything Block of Code + Press all together to comment
+
 
     }
 }

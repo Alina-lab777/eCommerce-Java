@@ -1,7 +1,25 @@
 package JavaClass13;
 
 public class JavaClassWork13 {
+
+      public int someVarFromClass13 = 15;
+
+
+
+      public boolean someMethodFromClass13() {
+          int i = 1; // i = 0;
+          while (i<=10) { // checking if i <=10; but my i is Zero --->
+              // will return always true, so without incrementing the Value of i, my code runs infinitely;
+              System.out.println("Print with While Loop Increment : " + i);
+              i++; // i = i + 1;
+          }
+          return false;
+      }
+
+
+
     public static void main(String[] args) {
+
 
       /**
        * 1. for Each Loop (Enhanced)
@@ -58,12 +76,7 @@ public class JavaClassWork13 {
 
 
         // For Increment:
-        int i = 1; // i = 0;
-        while (i<=10) { // checking if i <=10; but my i is Zero --->
-                        // will return always true, so without incrementing the Value of i, my code runs infinitely;
-            System.out.println("Print with While Loop Increment : " + i);
-            i++; // i = i + 1;
-        }
+
 
 
 
@@ -109,6 +122,7 @@ public class JavaClassWork13 {
             }
                 x--;
         } while (x>=1);// false;
+
 
 
 

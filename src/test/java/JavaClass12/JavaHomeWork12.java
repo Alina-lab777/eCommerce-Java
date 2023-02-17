@@ -100,12 +100,12 @@ public class JavaHomeWork12 {
         System.out.println("==================================================================");
 
         for (int w = flower.length - 1; w > 0; w--) {
-            int fwer = w;
+            int fwer = w; // basically all operation that "w" would perform, just was reassigned to "fwer";
 
             if (flower[fwer].endsWith("n")) {
-                System.out.println("The result of flower, that endsWith(n) " + flower[fwer]);
+                System.out.println("The result of flower, that endsWith(n) " + flower[w] + " Number of rounds : " + w);
             } else if (flower[fwer].length() >= 6) {
-                System.out.println("The result of flower, the length more than - 6 " + flower[fwer]);
+                System.out.println("The result of flower, the length more than - 6 " + flower[fwer] + " Number of rounds : " + fwer);
             } else {
                 System.out.println(flower[fwer] + "found at number of Rounds : " + w);
             }
