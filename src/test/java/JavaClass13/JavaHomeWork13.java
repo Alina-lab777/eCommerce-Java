@@ -1,6 +1,18 @@
 package JavaClass13;
 
 public class JavaHomeWork13 {
+
+    public int someVarClass13= 15;
+
+    public boolean someMethodFromClass13() {
+        int i = 1; // i = 0;
+        while (i<=10) { // checking if i <=10; but my i is Zero --->
+            // will return always true, so without incrementing the Value of i, my code runs infinitely;
+            System.out.println("Print with While Loop Increment : " + i);
+            i++; // i = i + 1;
+        }
+        return false;
+    }
     public static void main(String[] args) {
 
         /**
