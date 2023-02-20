@@ -62,20 +62,31 @@ public class JavaHomeWork14 {
          * */
 
 
-        int[] arrB = {15, 150, 25, 40, 57, 80};
-        int o = 0;
+        int[] arrB = {15, 150, 25, 40, 57, 80, 1050, -11};// easiest task;
+        int biggestNumber = 0; // Zero, 15;
         for (int i = 0; i < arrB.length; i++) {
+                 if (arrB[i]>biggestNumber){ // 1st round 15 vs 0;
+                     biggestNumber=arrB[i];
+                 }
+               // arrB[i] // will know all the existing values;
+        } System.out.println("Biggest number in given array : " + biggestNumber);
 
-        }
+
+        System.out.println("=================================================================");
 
 
 
-        int[] arrS = {112, 150, 25, 40, 57, 80};
-        int k = 0;
+        int[] arrS = {112, 150, 25, 40, 57, 80, -1, -133}; //
+
+        int smallestNumber = arrS[0]; // 112 -- 112 ; 150 < 112 = false; 25 < 112 = true, smallestNumber = 25;
 
         for (int i = 0; i < arrS.length; i++) {
+           if (arrS[i] < smallestNumber){
+               smallestNumber=arrS[i];
+           }
 
-        }
+        } System.out.println("Smallest number in given array : " + smallestNumber);
+
 
         System.out.println("=================================================================");
 
