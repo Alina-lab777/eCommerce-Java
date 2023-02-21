@@ -33,10 +33,10 @@ public class JavaClassWork15 {
      *
      *
      *
-     *
-     *
-     *
      **/
+
+
+
 
      private int someVarFromClass15 = 150;
      double someDouble = 11.44;
