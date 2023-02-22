@@ -1,25 +1,19 @@
 package JavaClass16;
-
-import JavaClass15.JavaClassWork15;
-
 public class JavaHomeWork16 {
-    public static void main(String[] args) {
+    // 1.Create a method that has one Input Parameter and checks if endsWith(n)
 
 
+   /* if (flower[i].endsWith("n")) {
+            System.out.println("The result of flower, that endsWith(n) - " + flower);
+        }
     }
-    /**
-     * Create parameterized Constructor in  Student Class, so while creating an Object of that class
-     * I can pass these values:
-     *          1. First name of a Student;
-     *          2. Last Name of a Student;
-     *          3. Age of a Student;
-     *          4. ID number;
-     *
-     * Create another parameterized Constructor in  Student Class, so while creating an Object of that class
-     * I can pass these values:
-     *               1. Home City;
-     *               2. From which US state;
-     *               3. Cell number;
-     *
-     **/
+        System.out.println("================================");*/
+
+
+   // 2. Create a method that has three Input Parameter and checks if startsWith(a);
+    // if Starts with "a" sout that it starts with a;
+
+
+    //FIY ---> names of these methods should be the same;
+
 }

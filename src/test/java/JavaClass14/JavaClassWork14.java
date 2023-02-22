@@ -83,7 +83,7 @@ public class JavaClassWork14 {
 
 
         /**
-         * OOP --- > Stands for Object Oriented Programming;
+         * OOPs --- > Stands for Object Oriented Programming;
          *
          * In Java we have the ability to inherit or obtain the Property or Values that the other Classes hold;
          *
