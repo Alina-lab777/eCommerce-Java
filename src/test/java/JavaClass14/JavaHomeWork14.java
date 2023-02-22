@@ -3,6 +3,8 @@ package JavaClass14;
 import JavaClass13.JavaHomeWork13;
 
 public class JavaHomeWork14 {
+
+    public int accessModifier = 123124;
     public static void main(String[] args) {
 
         /**
@@ -39,20 +41,16 @@ public class JavaHomeWork14 {
          *
          **/
 
-        int num = 0;
-        int num2 = 1;
-        int numTot;
-        int count = 10;
+        int a = 0, b = 1, tot, count = 10;
 
-        for (int i = 2; i < count; i++) {
-            numTot = num + num2;
-            System.out.println("Total number " + numTot);
-            numTot = numTot + num2;
-
-            if (numTot + num2 >= count) {
-            }
-            System.out.println("Fibonacci " + numTot);
+        for (int i = 0; i < count; i++) {
+            tot = a + b;
+            tot = tot + b;
+            a=b;
+            b=tot;
+            System.out.println("Fibonacci " + tot);
         }
+
         /**
          *    1. I will assign value 0 and 1 to int var1 and int var 2
          *    2. I will assign sum of var1 and var2 to var3.
@@ -158,5 +156,9 @@ public class JavaHomeWork14 {
         System.out.println(obj.someMethodFromClass13()); //CTRL and LEFT click
 
 
+
+
+
     }
+
 }
