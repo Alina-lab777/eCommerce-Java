@@ -1,6 +1,7 @@
 package JavaClass17;
 
 public class JavaHomeWork17 {
+
 /**
  * Create parameterized Constructor in  Student Class, so while creating an Object of that class
  * I can pass these values:
@@ -17,4 +18,12 @@ public class JavaHomeWork17 {
  *
  **/
 
+
+public static void main(String[] args) {
+
+    // Have to pass along :
+    Student sd = new Student();
+
+
+    }
 }
