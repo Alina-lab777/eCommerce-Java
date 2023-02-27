@@ -81,7 +81,7 @@ public class JavaHomeWork17 {
         this.classSSN = userSsn;
     }
 
-    // this keyword is used to set Field variables to method/constructor parameters;
+    // this keyword is used to set Field/Global variables to method/constructor parameters;
 
 
     public static void main(String[] args) {

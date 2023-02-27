@@ -11,6 +11,8 @@ public class Student {
     int studentId;
     int studentCellNumber;
 
+    Student(){};
+
     Student(String firstName, String lastName, int age, int id) {
         this.studentFirstName = firstName;
         this.studentLastName = lastName;
@@ -31,6 +33,10 @@ public class Student {
 
         Student student2 = new Student("Lolita", "Baku", 23, 212324);
         System.out.println(student2.studentFirstName + " " + student2.studentLastName + " " + student2.studentAge + " " + student2.studentId);
+
+
+        Student std = new Student();
+
 
     }
 }
