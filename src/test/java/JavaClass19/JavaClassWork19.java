@@ -1,9 +1,15 @@
 package JavaClass19;
 
+
+import JavaClass16.JavaClassWork16;
 import JavaClass19.Animal.Dog;
+import JavaClass19.Animal.Puppy;
 import JavaClass19.Banks.BankOfAmerica;
 import JavaClass19.Banks.CitiBank;
 import JavaClass19.Banks.FED;
+
+
+import static JavaClass16.JavaClassWork16.methodThatChecksTheCarLength;
 
 public class JavaClassWork19 {
 
@@ -58,6 +64,11 @@ public class JavaClassWork19 {
         System.out.println(dog.toString());
 
 
+        Puppy puppy = new Puppy();
+        puppy.jump();
+
+
+        methodThatChecksTheCarLength("car", "CAR");
 
 
 
