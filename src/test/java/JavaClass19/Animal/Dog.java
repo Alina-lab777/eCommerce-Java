@@ -10,6 +10,11 @@ public class Dog extends Animal{
         System.out.println("Barking in Dog class");
     }
 
+    public void jump(){
+        System.out.println("Jumping in Sub class dog from  Parent Animal ");
+    }
+
+    public void jump(int numberOfJumps) {};
 
     public void setTypeInfo (String specie, String breed, int dogAge){
         super.specie = specie;
