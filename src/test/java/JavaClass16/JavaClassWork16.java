@@ -24,22 +24,22 @@ public class JavaClassWork16 {
 
     /**
      * Static ---> is accessible without creating Object of a Class (applies to Variables, Methods)
-     *
      **/
 
 
     public static Integer staticNumber = 1010;
 
-    public static String methodThatChecksTheCarLength (String car) {
-            if (car.length() > 6) {
-                System.out.println("Car brand name length is more than 6 : " + car);
-            } else if (car.length() < 4) {
-                System.out.println("Car brand name length is less than 4 : " + car);
-            } else {
-                System.out.println("Car brand name leftovers : " + car);
-            }
+    public static String methodThatChecksTheCarLength(String car) {
+        if (car.length() > 6) {
+            System.out.println("Car brand name length is more than 6 : " + car);
+        } else if (car.length() < 4) {
+            System.out.println("Car brand name length is less than 4 : " + car);
+        } else {
+            System.out.println("Car brand name leftovers : " + car);
+        }
         return car;
     }
+
 
 
     public static String methodThatChecksTheCarLength (String car1, String car2) {
@@ -65,8 +65,6 @@ public class JavaClassWork16 {
 
 
 
-
-
     public static void main(String[] args) {
 
         // 1 Input Parameter:
@@ -78,6 +76,7 @@ public class JavaClassWork16 {
 
         // 2 Input parameters:
         methodThatChecksTheCarLength("Volkswagen", "BWM");
+
 
 
         System.out.println("Static number in class 16 : " + staticNumber);
