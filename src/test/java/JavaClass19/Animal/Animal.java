@@ -11,6 +11,7 @@ public class Animal {
 
     public void jump(){
         System.out.println("Jumping in Super/Parent class");
+
     }
 
 
