@@ -1,5 +1,4 @@
 package JavaClass17;
-import static JavaClass16.JavaClassWork16.staticNumber;
 public class JavaClassWork17 {
 
 
@@ -32,6 +31,9 @@ public class JavaClassWork17 {
      *                      2. Parameterized Constructor ---> consists of a name and parameter list (number of Input parameters,
      *                                                                                               types of Input Parameters,
      *                                                                                               order of Input Parameters)
+     *                      3. If there is no Constructor overloading, no any Constructor needs to be created, "default" will be called by default;
+     *                      4. If there is Constructor overloading, and user wants to create an Object of a class, default constructor
+     *                      needs to be created (which has no arguments/input parameters);
      **/
 
 

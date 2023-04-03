@@ -49,7 +49,7 @@ public class JavaHomeWork19 {
         dog.jump(120);
 
         Puppy puppy = new Puppy();
-        puppy.jump(110,3);
+
 
 
 
