@@ -21,7 +21,7 @@ public class JavaClassWork12 {
          *
          **/
 
-        for (int i = 10; i>0; i--){
+        for (int i = 10; i>0; i-=2){
             System.out.println(i);
         }
 
@@ -68,11 +68,21 @@ public class JavaClassWork12 {
 
         // Advanced Operator with Increment Loop :
 
-        for (int k = 0; k<=20; k+=2){ //(k+=2) ---- k = k + 2
+        for (int k = 0; k<=10; k+=2){ //(k+=2) ---- k = k + 2
             System.out.print(k + ",");
         }
 
         System.out.println();
+
+
+
+        int[] someString = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        for (int forEach : someString){
+            System.out.println(forEach);
+        }
+
+
 
 
         // Advanced Operator with Decrement Loop :
