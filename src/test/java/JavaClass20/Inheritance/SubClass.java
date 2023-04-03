@@ -8,5 +8,8 @@ public class SubClass extends SuperClass{
         return (str1.equalsIgnoreCase(str2));
     }
 
+    public int inheritedWillMoney (int numInSub1, int numInSub2){
+        return numInSub1 + numInSub2 + 10;
+    }
 
 }

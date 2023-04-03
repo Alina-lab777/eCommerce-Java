@@ -11,4 +11,11 @@ public class SuperClass {
         System.out.println("Checking in Super/Parent Class");
         return (str1.equals(str2));
     }
+
+
+    public int inheritedWillMoney (int num1, int num2){
+        return num1 + num2;
+    }
+
+
 }
