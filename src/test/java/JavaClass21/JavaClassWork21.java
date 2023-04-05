@@ -12,7 +12,7 @@ public class JavaClassWork21 {
        JavaHomeWork20 javaHomeWork202 = new JavaHomeWork20(25, 123456780);
 
 
-       JavaHomeWork20 javaHomeWork201 = new JavaHomeWork20();
+     //  JavaHomeWork20 javaHomeWork201 = new JavaHomeWork20();
 
 
 
