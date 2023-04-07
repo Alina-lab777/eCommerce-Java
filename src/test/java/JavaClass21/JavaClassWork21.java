@@ -7,9 +7,9 @@ public class JavaClassWork21 {
     public static void main(String[] args) {
 
 
-       JavaHomeWork20 javaHomeWork20 = new JavaHomeWork20("Ellie");
+    //   JavaHomeWork20 javaHomeWork20 = new JavaHomeWork20("Ellie");
 
-       JavaHomeWork20 javaHomeWork202 = new JavaHomeWork20(25, 123456780);
+    //   JavaHomeWork20 javaHomeWork202 = new JavaHomeWork20(25, 123456780);
 
 
      //  JavaHomeWork20 javaHomeWork201 = new JavaHomeWork20();
