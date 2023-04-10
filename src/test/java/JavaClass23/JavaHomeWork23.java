@@ -149,15 +149,16 @@ public class JavaHomeWork23 {
       //   * E,
      //   * G.
 
+        System.out.println(lettersArrayList.subList(4,7));
 
-       for (int i = 0; i<= lettersArrayList.size(); i++){
+       for (int i = 0; i< lettersArrayList.size(); i++){
            System.out.println("Remove letters with loop : " + lettersArrayList.remove(i));
        }
 
       //  From the same Arraylist extract only E, F, G, and print to the console; Result should look like this:
      // [E, F, G]
 
-        System.out.println(lettersArrayList.subList(4,7));
+
 
          //  Write a Java Program to create an Arraylist of Integer, add these numbers: 1,2,3,4,5,6,7,8,9,10.
 
@@ -178,11 +179,12 @@ public class JavaHomeWork23 {
         //   Using the For Loop set every second index to 7777. Result should look like this:
         //  [7777, 2, 7777, 4, 7777, 6, 7777, 8, 7777, 10]
 
-        for (int i = 0; i<= numbersArrayList.size(); i++){
-      //  System.out.println(numbersArrayList.set()[i]);
+        for (int i = 0; i<numbersArrayList.size(); i+=2){
+                        numbersArrayList.set(i, 7777);
+
         }
 
-
+        System.out.println(numbersArrayList);
 
 
 
