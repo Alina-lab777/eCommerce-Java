@@ -1,5 +1,6 @@
 package JavaClass22;
 
+import JavaClass21.JavaClassWork21;
 import JavaClass22.Abstract.Audi;
 
 public class JavaClassWork22 {
@@ -55,6 +56,13 @@ public class JavaClassWork22 {
     public static void main(String[] args) {
 
         Audi audi = new Audi();
+
+
+
+        JavaClassWork21 javaClassWork21 = new JavaClassWork21();
+        //javaClassWork21
+
+
 
 
      /**
