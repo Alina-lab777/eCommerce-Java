@@ -7,8 +7,8 @@ import java.util.*;
 public class JavaClassWork24 {
 
     /**
-     *  Arraylist stores PRIMITIVE DataType values. We have to define the datatype as a "wrapper class":
-     *  (wrapper class --- when non-primitive dataTypes starts with Capital Letter)
+     *  Arraylist stores NON-PRIMITIVE DataType values. We have to define the datatype as a "wrapper class":
+     *  (wrapper class --- when primitive dataTypes starts with Capital Letter)
      *
      *  byte - Byte;
      *  short - Short;
